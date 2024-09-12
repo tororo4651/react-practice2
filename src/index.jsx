@@ -2,7 +2,7 @@
 import ReactDOM from 'react-dom/client';
 import { AdminFlagProvider } from './components/providers/AdminFlagProvider.jsx';
 import { App } from './App.jsx';
-import './index.css';
+import './index.scss';
 // import reportWebVitals from './reportWebVitals';
 
 
