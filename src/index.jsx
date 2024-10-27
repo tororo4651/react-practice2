@@ -1,4 +1,3 @@
-// import React, { StrictMode, Fragment } from 'react';
 import ReactDOM from 'react-dom/client';
 import { AdminFlagProvider } from './components/providers/AdminFlagProvider.jsx';
 import { App } from './App.jsx';
