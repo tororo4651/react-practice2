@@ -7,7 +7,8 @@ const styles = {
   padding: 10,
   marginBlockStart: 20,
   borderRadius: 8,
-  fontSize: 18
+  fontSize: '1.2rem',
+  cursor: 'pointer'
 };
 
 
@@ -16,5 +17,5 @@ export const EditButton = () => {
   const { isAdminFlag } = useContext(AdminFlagContext);
 
 
-  return <button type="button" disabled={!isAdminFlag} style={styles}>編集</button>;
+  return <button style={styles} type="button" disabled={!isAdminFlag}>編集</button>;
 };
